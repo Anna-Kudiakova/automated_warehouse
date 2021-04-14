@@ -1,6 +1,7 @@
 public class Tester {
 
     public static void main(String[] args) {
+        UI ourUI = new UI();
         Warehouse warehouse = new Warehouse();
 
         System.out.println(warehouse.addGroup("Eclairs","with a pretty decoration and sot cream"));
@@ -20,8 +21,6 @@ public class Tester {
         System.out.println(warehouse.editItemManufacturer("Macarons", "Caramel macaron","Dreamy France"));
         System.out.println(warehouse.deleteItem("Croissants","Matcha croissant"));
 
-
-
-
     }
 }
+
