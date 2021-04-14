@@ -75,7 +75,7 @@ public class Warehouse {
                 //кожного разу після редагуання перезаписуємо файл
                 editFileGroups();
                 editFileItems(name);
-                return "\nItem name '" + name + "' was changed on '" + newName + "'\n";
+                return "\nGroup name '" + name + "' was changed on '" + newName + "'\n";
             }
         }
         return "\nThere isn't group of items with name '"+name+"' in the warehouse\n";
